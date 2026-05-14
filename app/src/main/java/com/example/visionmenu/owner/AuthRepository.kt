@@ -1,5 +1,6 @@
 package com.example.visionmenu.owner
 
+import com.example.myapplication.SupabaseApp
 import com.example.visionmenu.owner.data.Owner
 import io.github.jan.supabase.auth.auth
 import io.github.jan.supabase.auth.providers.builtin.Email
