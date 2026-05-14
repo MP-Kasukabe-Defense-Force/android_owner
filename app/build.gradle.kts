@@ -17,7 +17,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.visionmenu.owner"
+    namespace = "com.example.myapplication"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1

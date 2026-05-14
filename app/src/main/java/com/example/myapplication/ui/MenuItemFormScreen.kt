@@ -1,4 +1,4 @@
-package com.example.visionmenu.owner.ui
+package com.example.myapplication.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -21,8 +21,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import com.example.visionmenu.owner.SupabaseRepository
-import com.example.visionmenu.owner.data.MenuItem
+import com.example.myapplication.SupabaseRepository
+import com.example.myapplication.data.MenuItem
 import kotlinx.coroutines.launch
 
 @Composable

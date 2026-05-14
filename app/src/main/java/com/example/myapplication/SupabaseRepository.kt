@@ -1,9 +1,9 @@
-package com.example.visionmenu.owner
+package com.example.myapplication
 
-import com.example.visionmenu.owner.data.MenuCategory
-import com.example.visionmenu.owner.data.MenuItem
-import com.example.visionmenu.owner.data.Store
-import com.example.visionmenu.owner.data.StoreInfo
+import com.example.myapplication.data.MenuCategory
+import com.example.myapplication.data.MenuItem
+import com.example.myapplication.data.Store
+import com.example.myapplication.data.StoreInfo
 import io.github.jan.supabase.postgrest.from
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

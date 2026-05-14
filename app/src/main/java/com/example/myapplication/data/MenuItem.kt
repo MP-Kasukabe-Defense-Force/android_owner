@@ -1,4 +1,4 @@
-package com.example.visionmenu.owner.data
+package com.example.myapplication.data
 
 import kotlinx.serialization.Serializable
 

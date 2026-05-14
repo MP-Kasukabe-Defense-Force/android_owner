@@ -1,6 +1,6 @@
-package com.example.visionmenu.owner
+package com.example.myapplication
 
-import com.example.visionmenu.owner.data.Owner
+import com.example.myapplication.data.Owner
 import io.github.jan.supabase.auth.auth
 import io.github.jan.supabase.auth.providers.builtin.Email
 import io.github.jan.supabase.postgrest.from
