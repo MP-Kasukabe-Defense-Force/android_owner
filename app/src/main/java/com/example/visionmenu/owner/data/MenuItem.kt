@@ -9,5 +9,6 @@ data class MenuItem(
     val name: String,
     val price: Int,
     val description: String? = null,
+    val allergy_info: String? = null,
     val sort_order: Int = 0
 )
