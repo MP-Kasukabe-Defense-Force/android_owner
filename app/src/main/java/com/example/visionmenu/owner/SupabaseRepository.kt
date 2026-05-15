@@ -1,6 +1,6 @@
 package com.example.visionmenu.owner
 
-import com.example.myapplication.SupabaseApp
+import com.example.visionmenu.owner.SupabaseApp
 import com.example.visionmenu.owner.data.MenuCategory
 import com.example.visionmenu.owner.data.MenuItem
 import com.example.visionmenu.owner.data.Store

@@ -1,11 +1,10 @@
-package com.example.myapplication
+package com.example.visionmenu.owner
 
 import android.app.Application
-import com.example.visionmenu.owner.BuildConfig
 import io.github.jan.supabase.SupabaseClient
+import io.github.jan.supabase.auth.Auth
 import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.postgrest.Postgrest
-import io.github.jan.supabase.auth.Auth
 
 class SupabaseApp : Application() {
     companion object {
@@ -18,8 +17,8 @@ class SupabaseApp : Application() {
             supabaseUrl = BuildConfig.SUPABASE_URL,
             supabaseKey = BuildConfig.SUPABASE_KEY
         ) {
-            install(Postgrest)
-            install(Auth)
+            install(Postgrest.Companion)
+            install(Auth.Companion)
         }
     }
 }
